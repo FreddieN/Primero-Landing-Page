@@ -30,6 +30,9 @@ Copyright © All rights Reserved
 
 /* GLOBAL
 ----------------------*/
+.sugarizer {
+    height: 60px;
+}
 .logobold {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -44,12 +47,12 @@ body {
 }
 
 a {
-    color: #e38cb7;
+    color: #46C9F5;
 }
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #46C9F5;
 }
 
 h1 {
@@ -112,15 +115,15 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: #46C9F5;
 }
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
-    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    background-image: -moz-linear-gradient( 122deg, #6DD5FA 0%, #2980B9 100%);
+    background-image: -webkit-linear-gradient( 122deg, #6DD5FA 0%, #2980B9 100%);
+    background-image: -ms-linear-gradient( 122deg, #6DD5FA 0%, #2980B9 100%);
+    background-image: linear-gradient( 122deg, #6DD5FA 0%, #2980B9 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -133,7 +136,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #fd378e 0%, #e54595 100%);
+    background-image: linear-gradient( 122deg, #2980B9 0%, #6DD5FA 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -144,7 +147,7 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #633991;
+    color: #2980B9;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
@@ -287,7 +290,7 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 ----------------------*/
 
 .gradient-fill:before {
-    color: #fc73b4;
+    color: #46C9F5;
     background: #2980B9;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -354,7 +357,7 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #46C9F5;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -395,7 +398,7 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10
 
 @media (min-width:992px) {
     .perspective-phone {
-        margin-top: -150px;
+        margin-top: -250px;
     }
 }
 
@@ -442,8 +445,8 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+    border-color: #2980B9 #faf6fb #FFF;
+    color: #46C9F5;
 }
 
 
@@ -605,7 +608,7 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #D3F5FE;
     max-width: 650px;
     margin: 0 auto;
 }
