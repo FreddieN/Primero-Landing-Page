@@ -30,6 +30,15 @@ Copyright © All rights Reserved
 
 /* GLOBAL
 ----------------------*/
+.sugartext {
+    position: relative;
+    top: 100%;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 .sugarizer {
     height: 60px;
 }
@@ -89,7 +98,7 @@ h5 {
     margin-bottom: 0.7rem;
 }
 
-p {
+p, li {
     color: #959094;
 }
 
@@ -197,9 +206,8 @@ p.lead {
 .nav-menu.is-scrolling,
 .nav-menu.menu-is-open {
     background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: -webkit-linear-gradient(to right, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -251,15 +259,15 @@ header {
 
 .bg-gradient {
     background: #2980B9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to right, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #D3F5FE;
+    color: #bbddf3;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -636,13 +644,13 @@ background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #6DD5FA;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #2980B9;
 }
 
 @media (max-width:991px) {
