@@ -30,9 +30,12 @@ Copyright © All rights Reserved
 
 /* GLOBAL
 ----------------------*/
-.sugartext {
-    position: relative;
-    top: 100%;
+@media (min-width:991px) {
+    .sugartext {
+        position: relative;
+        top: 100%;
+    }
+    
 }
 .vcenter {
     display: inline-block;
